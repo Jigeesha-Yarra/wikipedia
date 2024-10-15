@@ -1,0 +1,72 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container {
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 10px;
+}
+
+h1{
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.wiki-search-header {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d5cdcd;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.wiki-logo {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.search-input {
+    font-size: 18px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d5cdcd;
+    border-radius: 3px;
+    padding: 10px;
+    width: 400px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.search-results {
+    width: 60%;
+    padding-left: 0px;
+}
+
+.result-item {
+    margin-bottom: 20px;
+}
+
+.result-title {
+    font-size: 22px;
+}
+
+.link-description {
+    color: #444444;
+    font-size: 15px;
+}
+
+.result-url {
+    color: #006621;
+    text-decoration: none;
+}
